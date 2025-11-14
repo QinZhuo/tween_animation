@@ -27,3 +27,6 @@
 ![alt text](https://raw.githubusercontent.com/QinZhuo/TweenAnimation/refs/heads/master/images/is_parallel.png)
 * Default playback will play the animation in reverse. If you want more control over curves or speed, you can check the 'custom_playback' option.
 ![alt text](https://raw.githubusercontent.com/QinZhuo/TweenAnimation/refs/heads/master/images/playback.png)
+* You can run the TweenAnimationEaseTransition script in the editor to display all tween ease transition effects.
+![alt text](https://raw.githubusercontent.com/QinZhuo/TweenAnimation/refs/heads/master/images/run_ease_transition.png)
+![alt text](https://raw.githubusercontent.com/QinZhuo/TweenAnimation/refs/heads/master/images/ease_transition.png)

@@ -27,10 +27,8 @@ node = NodePath("../..")
 property = ":scale"
 final_value = Vector3(1.2, 0.85, 1)
 duration = 0.2
-ease_type = 1
 from_value = Vector3(1, 1, 1)
 playback_transition_type = 10
-playback_ease_type = 1
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
 [node name="_scale2" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
@@ -39,10 +37,8 @@ node = NodePath("../..")
 property = ":scale"
 final_value = Vector3(0.9, 1.1, 1)
 duration = 0.2
-ease_type = 1
 from_value = Vector3(1.2, 0.85, 1)
 playback_transition_type = 10
-playback_ease_type = 1
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
 [node name="_scale3" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
@@ -51,10 +47,8 @@ node = NodePath("../..")
 property = ":scale"
 final_value = Vector3(1.05, 0.95, 1)
 duration = 0.2
-ease_type = 1
 from_value = Vector3(0.9, 1.1, 1)
 playback_transition_type = 10
-playback_ease_type = 1
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
 [node name="_scale4" type="Node" parent="Test1/TweenAnimation" node_paths=PackedStringArray("node")]
@@ -63,10 +57,8 @@ node = NodePath("../..")
 property = ":scale"
 final_value = Vector3(1, 1, 1)
 duration = 0.2
-ease_type = 1
 from_value = Vector3(1.05, 0.95, 1)
 playback_transition_type = 10
-playback_ease_type = 1
 metadata/_custom_type_script = "uid://cqxuuexdumeed"
 
 [node name="Test2" type="CSGBox3D" parent="."]

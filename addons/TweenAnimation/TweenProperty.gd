@@ -33,7 +33,7 @@ class_name TweenProperty extends TweenAnimation
 
 @export var transition_type: Tween.TransitionType = Tween.TRANS_SINE
 
-@export var ease_type: Tween.EaseType = Tween.EaseType.EASE_IN_OUT
+@export var ease_type: Tween.EaseType = Tween.EaseType.EASE_OUT
 
 @export_group("Playback")
 
@@ -49,7 +49,7 @@ class_name TweenProperty extends TweenAnimation
 
 @export var playback_transition_type: Tween.TransitionType = Tween.TRANS_SINE
 
-@export var playback_ease_type: Tween.EaseType = Tween.EaseType.EASE_IN_OUT
+@export var playback_ease_type: Tween.EaseType = Tween.EaseType.EASE_OUT
 
 func _get_value():
 	return node.get_indexed(property)

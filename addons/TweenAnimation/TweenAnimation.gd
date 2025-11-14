@@ -19,14 +19,14 @@ func _process(delta):
 
 func play() -> Tween:
 	if cur_tween and cur_tween.is_running():
-		cur_tween.stop()
+		cur_tween.kill()
 	cur_tween = create_tween()
 	create_tweenr(cur_tween)
 	return cur_tween
 
 func playback():
 	if cur_tween and cur_tween.is_running():
-		cur_tween.stop()
+		cur_tween.kill()
 	cur_tween = create_tween()
 	create_tweenr(cur_tween, true)
 	return cur_tween
@@ -37,11 +37,8 @@ func create_tweenr(tween: Tween, is_play_back: bool = false):
 	var index_array = range(0, child_count) if not is_play_back else range(child_count - 1, -1, -1)
 	var subtween = create_tween()
 	tween.tween_subtween(subtween)
+	subtween.set_parallel(is_parallel)
 	for index in index_array:
-		if is_parallel:
-			subtween.parallel()
-		else:
-			subtween.chain()
 		var child_tween: TweenAnimation = get_child(index)
 		child_tween.create_tweenr(subtween, is_play_back)
 

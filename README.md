@@ -24,4 +24,4 @@
 * Set child tween is_parallel or not
 ![alt text](images/is_parallel.png)
 * Default playback will play the animation in reverse. If you want more control over curves or speed, you can check the 'custom_playback' option.
-![alt text](playback.png)
+![alt text](images/playback.png)

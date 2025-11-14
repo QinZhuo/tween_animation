@@ -1,4 +1,4 @@
-# Godot Tween Node
+# Godot Tween Animation [Github](https://github.com/QinZhuo/TweenAnimation)
 > This is a plugin for using Godot Tween in a node-based way.
 
 > A more convenient and simpler way to use Tween.

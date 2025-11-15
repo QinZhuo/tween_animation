@@ -30,4 +30,3 @@
 * You can run the TweenAnimationEaseTransition script in the editor to display all tween ease transition effects.
 ![](https://raw.githubusercontent.com/QinZhuo/TweenAnimation/refs/heads/master/images/run_ease_transition.png)
 ![](https://raw.githubusercontent.com/QinZhuo/TweenAnimation/refs/heads/master/images/ease_transition.png)
-![](https://raw.githubusercontent.com/QinZhuo/TweenAnimation/refs/heads/master/images/ease_transition.git)

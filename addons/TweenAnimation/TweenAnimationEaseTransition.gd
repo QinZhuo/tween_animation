@@ -17,6 +17,10 @@ func _run():
 	window.min_size = size
 	window.max_size = size
 	window.ready.connect((func(): draw_node.queue_redraw()))
+	window.window_input.connect(func(input: InputEvent):
+		if input.is_action_pressed("ui_cancel"):
+			window.queue_free()
+	)
 	window.close_requested.connect(window.queue_free)
 	EditorInterface.popup_dialog_centered(window)
 	for index in count:

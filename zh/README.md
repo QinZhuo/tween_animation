@@ -1,5 +1,5 @@
 # Godot Tween Animation
-**语言:** [English](/README.md) | [中文](/zh/README.md)
+[English](/README.md) | [中文](/zh/README.md)
 > 这是一个以节点方式使用 Godot Tween 的插件。一种更方便、更简单的 Tween 使用方法。
 * [Github](https://github.com/QinZhuo/TweenAnimation)
 * [资源库](https://godotengine.org/asset-library/asset/4480)

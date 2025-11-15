@@ -1,5 +1,5 @@
 # Godot Tween Animation 
-**Languages:** [English](/README.md) | [中文](/zh/README.md)
+[English](/README.md) | [中文](/zh/README.md)
 > This is a plugin for using Godot Tween in a node-based way. A more convenient and simpler way to use Tween.
 * [Github](https://github.com/QinZhuo/TweenAnimation) 
 * [Asset library](https://godotengine.org/asset-library/asset/4480) 
